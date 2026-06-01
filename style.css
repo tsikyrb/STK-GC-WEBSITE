@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STK Grands Champs Paris</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="brand">
+      <span class="cross">✝</span>
+      <strong>STK</strong>
+      <small>GRANDS CHAMPS<br>PARIS</small>
+    </div>
+
+    <nav>
+      <a href="#accueil" class="active">Accueil</a>
+      <a href="#stk">La STK</a>
+      <a href="#activites">Activités</a>
+      <a href="#projets">Projets</a>
+      <a href="#boutique">Boutique</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#soutenir" class="don-btn">♡ Soutenir la STK</a>
+  </header>
+
+  <section id="accueil" class="hero">
+    <div class="hero-text">
+      <h1>STK<br>Grands Champs<br>Paris</h1>
+      <p class="gold-line">Une jeunesse engagée <span>pour Christ.</span></p>
+      <p class="verse-short">Grandir dans la foi, vivre la communion fraternelle et impacter notre génération.</p>
+      <div class="hero-actions">
+        <a href="#stk" class="btn primary">Découvrir la STK →</a>
+        <a href="#projets" class="btn secondary">Nos projets →</a>
+      </div>
+    </div>
+    <div class="hero-image"></div>
+  </section>
+
+  <section id="stk" class="about">
+    <div>
+      <p class="section-label">Qui sommes-nous ?</p>
+      <h2>Une famille,<br>unie par la foi.</h2>
+      <p>
+        La STK Grands Champs Paris rassemble des jeunes désireux de grandir dans leur relation avec Christ,
+        de vivre la communion fraternelle et d'impacter leur génération.
+      </p>
+      <a href="#contact" class="btn primary small">En savoir plus sur la STK →</a>
+    </div>
+    <img src="assets/groupe-stk.jpeg" alt="Photo de groupe STK Grands Champs Paris">
+  </section>
+
+  <section id="activites" class="activities">
+    <p class="section-label center">Nos activités</p>
+    <h2>Grandir ensemble dans la foi</h2>
+    <div class="activity-grid">
+      <article><span>📖</span><h3>Enseignement</h3><p>Études bibliques et enseignements pour une foi solide.</p></article>
+      <article><span>🎶</span><h3>Louange</h3><p>Se rassembler pour adorer Dieu ensemble.</p></article>
+      <article><span>🤝</span><h3>Communion</h3><p>Des rencontres fraternelles pour bâtir des liens forts.</p></article>
+      <article><span>🙏</span><h3>Prière</h3><p>Se tourner ensemble vers Dieu dans l'intercession.</p></article>
+      <article><span>📅</span><h3>Événements</h3><p>Des temps forts tout au long de l'année.</p></article>
+    </div>
+  </section>
+
+  <section id="projets" class="projects">
+    <p class="section-label center">Nos projets</p>
+    <h2>Construire aujourd'hui,<br>impacter demain</h2>
+    <div class="project-grid">
+      <article><div class="project-img sea"></div><h3>Levée de fonds 2026</h3><p>Soutenir les activités locales et nos projets tout au long de l'année.</p><a>En savoir plus →</a></article>
+      <article><div class="project-img christmas"></div><h3>Levée de fonds décembre 2026</h3><p>Une action spéciale pour financer nos projets de fin d'année.</p><a>En savoir plus →</a></article>
+      <article><div class="project-img group"></div><h3>RNSTK 2027</h3><p>Préparer et participer à la Rencontre Nationale STK 2027.</p><a>En savoir plus →</a></article>
+      <article><div class="project-img solidarity"></div><h3>Actions solidaires</h3><p>Être les mains et les pieds de Christ dans notre communauté.</p><a>En savoir plus →</a></article>
+    </div>
+  </section>
+
+  <section id="soutenir" class="support">
+    <div class="support-icon">♡</div>
+    <div>
+      <p class="section-label">Soutenir la STK</p>
+      <h2>Ensemble, faisons la différence.</h2>
+      <p>Votre soutien nous permet de continuer cette mission et d'impacter davantage de vies pour Christ.</p>
+    </div>
+    <a href="#contact" class="don-gold">Faire un don ♡</a>
+  </section>
+
+  <footer id="contact">
+    <div class="footer-brand">
+      <span class="cross">✝</span>
+      <strong>STK</strong>
+      <small>GRANDS CHAMPS PARIS</small>
+    </div>
+    <div>
+      <h4>Liens rapides</h4>
+      <a href="#accueil">Accueil</a>
+      <a href="#stk">La STK</a>
+      <a href="#activites">Activités</a>
+      <a href="#projets">Projets</a>
+      <a href="#boutique">Boutique</a>
+    </div>
+    <div>
+      <h4>Nous contacter</h4>
+      <p>📍 47 Rue Dulong, 75017 Paris</p>
+      <p>📷 @stk.grands_champs</p>
+      <p>✉️ stk.grandschampsparis@gmail.com</p>
+    </div>
+    <div>
+      <h4>Suivez-nous</h4>
+      <p>Restez connectés à nos actualités.</p>
+      <a class="btn primary small" href="https://www.instagram.com/stk.grands_champs/" target="_blank">Nous suivre</a>
+    </div>
+  </footer>
+</body>
+</html>
